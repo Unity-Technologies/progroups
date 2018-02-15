@@ -1,0 +1,86 @@
+-- ProGroups 1.2.7f1
+
+# Features
+
+- Click list items to select individual objects.
+
+# Bug Fixes
+
+- When adding new objects to a group, apply Freeze and Hide states to objects.
+- Fix icons not loading when ProGroups folder is moved.
+- Fix About window opening changelogs that do not belong to ProGroups.
+
+-- ProGroups 1.2.6
+
+# Bug Fixes
+
+- Fix GUI rendering on macOS Retina displays.
+
+-- ProGroups 1.2.5
+
+# Features
+
+- Add ability to collapse and expand groups individually
+- Improve visibility of groups by alternating row color
+
+-- ProGroups 1.2.4
+
+# Features
+
+- When a group is selected, show all it's children with a delete button to remove it from the group.
+
+-- ProGroups 1.2.3 -
+
+# Bug Fixes
+
+- Fix occasional null reference exception caused by deleting all groups in a scene.
+- Add menu item to clear all groups in a scene.
+
+-- ProGroups 1.2.2 -
+
+# Features
+
+- Unity 5.1 compatibility.
+
+-- ProGroups 1.2.1 -
+
+# Bug Fixes
+
+- Fix issue where deleting an object belonging to a group would lead to null-ref errors.
+- Enable objects to belong to more than one group simultaneously.
+
+-- ProGroups 1.2.0 -
+
+# Features
+
+- Show a highlight behind groups that contain a selected gameobject.
+- Enable clicking anywhere on a group entry to select all contained objects.
+- Add "Move Down" button when sorting groups.
+- Add ability to drag and drop Hierarchy objects into groups, and create new groups by dragging anywhere onto the window.
+- Show a tooltip when hovering a group name with a list of objects it contains.
+- Add ability to double-click a group name to edit it's text.
+- Add context-click menu to switch between a dockable and floating window.
+- Use name of first selected object when creating new groups instead of always defaulting to "New Group."
+
+# Bug Fixes
+- Fix issue in Unity 5 where groups would be erased on entering playmode.
+- Wrap code in ProGroups namespace to avoid conflicts.
+- Remove circular references to EditorWindow.
+- Add Undo support for creating, deleting, and modifying groups.
+- Fix inconsistent formatting on text and button fields.
+- Prompt user to remove or ignore objects when creating new groups from objects already belonging to a group.
+- Remove null or empty groups automatically.
+
+-- ProGroups 1.1.2 -
+
+# Bug Fixes
+
+- Fix crash when docking ProGroups window in Unity 5.
+
+
+-- ProGroups 1.1.1 -
+
+# Bug Fixes
+
+- Fix namespace conflicts with Bundle packages in Unity 5.
+- Fix deprecated API warnings in Unity 5.
