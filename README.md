@@ -1,3 +1,3 @@
 # ProGroups
 
-Organize you scene with groups and visibility toggles.
+Organize your scene with groups and visibility toggles.
