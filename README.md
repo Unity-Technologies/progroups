@@ -2,7 +2,7 @@
 
 ProGroups allows you to organize objects in your scene into “selection sets”, **without modifying the objects or hierarchy**. Then, use the interface to **hide, freeze, and select** entire groups at once. 
 
-These powerful features allows you to work with even the most complex scenes with ease.
+These features help keep your large, complex scenes nicely organized and easy to work with.
 
 **More Info**
 
