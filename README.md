@@ -14,19 +14,15 @@ These features help keep your large, complex scenes nicely organized and easy to
 
 # Installation and Setup
 
-## Install from a Package File
-
 1. Open Unity
-1. Find the ProGroups package, then double-click to open
-1. Unity will show an “Import Package" dialog; Select all items and click "Import"
-1. Open the ProGroups panel through the `Tools > ProGroups > ProGroups Window`, menu
+1. Download ProGroups (Click the green "Clone or Download" button or use this [Direct Link](https://github.com/Unity-Technologies/progroups/archive/master.zip))
+1. Unzip and place the ProGroups files into Assets folder of your Unity project
 
-## Install from Unity Asset Store
-
-1. Open Unity
-1. Download and Import the ProGroups package
-1. Unity will show an “Import Package" dialog; make sure all items are selected and click "Import"
-1. Open the ProGroups panel through the `Tools > ProGroups > ProGroups Window`, menu
+**Or, via command line:**
+```
+cd YourProject/Assets
+git clone https://github.com/Unity-Technologies/progroups.git ProGroups
+```
 
 # Getting Started with ProGroups
 
